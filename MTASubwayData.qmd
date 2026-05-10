@@ -23,6 +23,7 @@ ridership <- read.csv("data/hourlyridership.csv") |>
   )
 ```
 
+
 ```{r}
 library(redav)
 plot_missing(ridership, num_char = 5)
